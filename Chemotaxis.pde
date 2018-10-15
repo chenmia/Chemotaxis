@@ -2,8 +2,8 @@ Bear [] pooh;
 Honey pot;
 void setup(){
   size(300,300);
-  color background = color(255, 244, 163);
-  background(background);
+  color yellow = color(255, 244, 163);
+  background(yellow);
   frameRate(20);
   pooh = new Bear[10];
   for(int i = 0; i < pooh.length;i++)
